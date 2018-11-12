@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Archivos</string>
+    <string name="LeerI">Leer Interno</string>
+    <string name="escribir_interno">Escribir Interno</string>
+    <string name="leerE">Leer Externo</string>
+    <string name="escribirE">Escribir Externo</string>
+</resources>

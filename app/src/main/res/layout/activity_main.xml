@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fichero"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/Blanco"
+        android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/LeerInterna"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LeerI"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:ems="10"/>
+
+    <Button
+        android:id="@+id/EscribirInterno"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escribir_interno"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:ems="10"/>
+    <Button
+        android:id="@+id/LeerExterno"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leerE"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:ems="10"/>
+    <Button
+        android:id="@+id/EscribirExterno"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/escribirE"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:ems="10"/>
+
+
+
+</LinearLayout>
